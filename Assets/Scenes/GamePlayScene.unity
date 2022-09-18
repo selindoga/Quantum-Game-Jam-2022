@@ -454,8 +454,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextField: {fileID: 314611704}
   gameplayDisplay: {fileID: 2138677258}
-  WinDisplay: {fileID: 0}
-  LostDisplay: {fileID: 0}
+  WinDisplay: {fileID: 1062293515}
+  LostDisplay: {fileID: 390435921}
 --- !u!1 &211850232
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 390435924}
   - component: {fileID: 390435923}
   m_Layer: 5
-  m_Name: WinDisplay (1)
+  m_Name: LostDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 583516694}
   - component: {fileID: 583516693}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1248,7 +1248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.72200006, y: 0.86911005}
   m_AnchorMax: {x: 0.93469566, y: 0.9645599}
-  m_AnchoredPosition: {x: 0.009994507, y: -0.000015258789}
+  m_AnchoredPosition: {x: 0.009994507, y: 0}
   m_SizeDelta: {x: 0.020016, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &583516693
@@ -1294,7 +1294,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 583516694}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 130846197}
+        m_TargetAssemblyTypeName: GamePlay, Assembly-CSharp
+        m_MethodName: CloseScreenButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &583516694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2607,7 +2619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Won !
+  m_text: You Lost ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2697,7 +2709,7 @@ GameObject:
   - component: {fileID: 1729170150}
   - component: {fileID: 1729170149}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2720,7 +2732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.72200006, y: 0.86911005}
   m_AnchorMax: {x: 0.93469566, y: 0.9645599}
-  m_AnchoredPosition: {x: 0.009994507, y: -0.000015258789}
+  m_AnchoredPosition: {x: 0.009994507, y: 0}
   m_SizeDelta: {x: 0.020016, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729170149
@@ -2766,7 +2778,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1729170150}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 130846197}
+        m_TargetAssemblyTypeName: GamePlay, Assembly-CSharp
+        m_MethodName: CloseScreenButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1729170150
 MonoBehaviour:
   m_ObjectHideFlags: 0
