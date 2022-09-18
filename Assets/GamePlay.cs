@@ -6,17 +6,10 @@ using TMPro;
 
 public class GamePlay : MonoBehaviour
 {
-    public GameObject[] buttons;
     public TextMeshProUGUI TextField;
-    private bool zi_pressed;
-    private bool zh_pressed;
-    private bool xy_pressed;
-    private bool xi_pressed;
-    private bool xx_pressed;
-    private bool hx_pressed;
-    private bool yy_pressed;
-    private bool yh_pressed;
-    private bool ih_pressed;
+    public GameObject gameplayDisplay;
+    public GameObject WinDisplay;
+    public GameObject LostDisplay;
 
     public static bool WonTheGame;
     public static bool LostTheGame;
@@ -82,15 +75,31 @@ public class GamePlay : MonoBehaviour
     {
         if (TextField.text.Equals("XI IH "))
         {
+            resetText();
             WonTheGame = true;
             LostTheGame = false;
             Debug.Log("won the game");
+            WinDisplay.SetActive(true);
+            LostDisplay.SetActive(false);
+            gameplayDisplay.SetActive(false);
         }
         else
         {
+            resetText();
             WonTheGame = false;
             LostTheGame = true;
             Debug.Log("lost the game");
+            WinDisplay.SetActive(false);
+            LostDisplay.SetActive(true);
+            gameplayDisplay.SetActive(false);
         }
+    }
+
+    public void CloseScreenButton()
+    {
+        resetText();
+        WinDisplay.SetActive(false);
+        LostDisplay.SetActive(false);
+        gameplayDisplay.SetActive(true);
     }
 }
