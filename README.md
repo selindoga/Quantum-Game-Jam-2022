@@ -51,4 +51,4 @@ __Superposition:__ As mentioned earlier, qubits can be in a superposed state of 
 
 __Entanglement:__ In a multistate system, when qubits are said to be entangled, measurement of one qubit effects the state of the other qubit and this is a very powerful tool used to increase efficiency of computation using quantum properties. One example is that the hurdle of ‘no cloning theorem’ is overridden with the help of entanglement to obtain the quantum state of one qubit into another qubit called the ancilla qubit without losing information.
 
-_Additional Note:_ We have not included and measurements of quantum states after operation of quantum gates. The game focusses on operation of quantum gates on qubits and the mathematical details of it.
+_Additional Note:_ We have not included measurements of quantum states after operation of quantum gates. The game focusses on understanding operations of quantum gates on qubits and the mathematical details of it.
