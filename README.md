@@ -23,9 +23,13 @@ The game targets beginners at the starting point in the path of exploring and le
 
 In the previous quantum game jam, we started with the above stated game idea and due to a mistake on our half, we had to work on realizing this idea in a very short time due to which, the development part of the game was scarce and had a lot to be worked on (this can be confirmed from the git-repo attached in the submission). We only had one game level with only took inputs and declared if the combination of quantum games was right or wrong. This time, we worked on developing a project which strongly holds the essence of a proper game with catchy visual frames, sound effects and effective guides to provide the player with a good idea of how the game is supposed to be played. All the frames used in the game have been designed from scratch and then gathered all the assets together into Unity and programmed all during the hackathon. The sound effects are afresh added to the game and it is made sure that all sound effects used in the game are royalty-free and freely available for commercial and non-commercial use.
 
-Name of Game: QodeUnlocked
-Team name: Quantum Potatoes
-Team members: Surabhi Srivastava, Selin Doğa Orhan
+
+_Name of Game: QodeUnlocked_
+
+_Team name: Quantum Potatoes_
+
+_Team members: Surabhi Srivastava, Selin Doğa Orhan_
+
 
 • Game developed using Unity
 
