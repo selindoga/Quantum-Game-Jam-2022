@@ -6,6 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GamePlayScene.unity
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 6c70800044dafbb4dbc8f361f2119c1f
+  - enabled: 0
+    path: Assets/Scenes/GamePlayScene-JamVersion.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level1_Question.unity
+    guid: e51568be8ff50614abfffef1ba4b616c
+  - enabled: 1
+    path: Assets/Scenes/Level1_Gameplay.unity
+    guid: 15f7a7eede515164285974b8d6e6dd7c
+  - enabled: 1
+    path: Assets/Scenes/Level1_Win.unity
+    guid: 5670f3cb59602434e9fd26cab617e806
+  - enabled: 1
+    path: Assets/Scenes/Level2_Question.unity
+    guid: 36c2b938cb6c09240975620b5bdf96e4
+  - enabled: 1
+    path: Assets/Scenes/Level2_Gameplay.unity
+    guid: fe02f0622d460f34a8b43bdc100e0c6f
+  - enabled: 1
+    path: Assets/Scenes/Level2_Win.unity
+    guid: 736808db330cfa1439776b4c8df88248
+  - enabled: 1
+    path: Assets/Scenes/Level3_Question.unity
+    guid: 18138b77debec57488fb734d479ce4ee
+  - enabled: 1
+    path: Assets/Scenes/Level3_Gameplay.unity
+    guid: afa0fa4196161d84e98c38aa1e664fd4
+  - enabled: 1
+    path: Assets/Scenes/Level3_Win.unity
+    guid: 9284ea24e30f82a45ba0f3b238e04072
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: e7a313400c78e8e45ae99af45d7b5e85
   m_configObjects: {}
