@@ -3,7 +3,7 @@ Unity Editor Version is 2020.3.16f1
 # QodeUnlocked - Quantum Game Jam 2022 Version
 * [Its Game Jam submission page](https://itch.io/jam/quantum-game-jam-2022/rate/1707788)
 
-* [Its Gameplay Video](https://drive.google.com/file/d/17gOITk_pUpgzWqfTfTRoai0zxWkfs8Je/view?usp=drivesdk)
+* [Game jam version gameplay Video](https://drive.google.com/file/d/17gOITk_pUpgzWqfTfTRoai0zxWkfs8Je/view?usp=drivesdk)
 
 #### How to Install
 1. setup python2.7 environment for Unity [here](https://docs.unity3d.com/Packages/com.unity.scripting.python@2.0/manual/PythonScriptEditor.html)
