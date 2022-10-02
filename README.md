@@ -10,7 +10,7 @@ Unity Editor Version is 2020.3.16f1
 2. download pip and download qiskit library
 
 
-# QodeUnlocked - Quantum Game Hackathon Version
+# QodeUnlocked - Quantum Games Hackathon Version
 ## Game Video: https://drive.google.com/file/d/1oTSDONsytLBLJm4wGzcNyyCYKggKdeO6/view?usp=sharing
 
 ### Which commits belong to Quantum game jam version / which ones Quantum game hackathon version?
