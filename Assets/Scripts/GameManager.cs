@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
     public static int CurrentSceneIndex;
     public static int TryAgainScene;
 
+    public AudioSource LockSound; 
+    
     private bool CurrentLevelWon = false;
     private String L1Solution = "H";
     private String L2Solution = "HH CX(1,2)";
