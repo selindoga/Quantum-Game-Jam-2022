@@ -87,8 +87,17 @@ public class GameManager : MonoBehaviour
         GameFinishedText.SetActive(true);
     }
 
+    public void ActivateExitButton(GameObject ExitGame)
+    {
+        ExitGame.SetActive(true);
+    }
     public void TryAgainLevel()
     {
         SceneManager.LoadScene(TryAgainScene);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
