@@ -66,6 +66,7 @@ public class Level2Gameplay : MonoBehaviour
 
     public void CZ12()
     {
+        AddSpace();
         textField.text += "CZ(1,2)";
     }
     private void AddSpace()
