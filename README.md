@@ -1,9 +1,9 @@
 Unity Editor Version is 2020.3.16f1
 
-# QodeUnlocked - Quantum Game Jam 2022 Version
-* [Its Game Jam submission page](https://itch.io/jam/quantum-game-jam-2022/rate/1707788)
+# QodeUnlocked - Quantum Game Jam 2022 Version (Previous)
+* ### _[Jam submission page](https://itch.io/jam/quantum-game-jam-2022/rate/1707788)_
 
-* [Game jam version gameplay Video](https://drive.google.com/file/d/17gOITk_pUpgzWqfTfTRoai0zxWkfs8Je/view?usp=drivesdk)
+* ### _[Jam version gameplay Video](https://drive.google.com/file/d/17gOITk_pUpgzWqfTfTRoai0zxWkfs8Je/view?usp=drivesdk)_
 
 #### How to Install
 1. setup python2.7 environment for Unity [here](https://docs.unity3d.com/Packages/com.unity.scripting.python@2.0/manual/PythonScriptEditor.html)
@@ -11,7 +11,8 @@ Unity Editor Version is 2020.3.16f1
 
 
 # QodeUnlocked - Quantum Games Hackathon Version
-## Game Video: https://drive.google.com/file/d/1oTSDONsytLBLJm4wGzcNyyCYKggKdeO6/view?usp=sharing
+* ### _[Hackathon version gameplay Video](https://drive.google.com/file/d/1oTSDONsytLBLJm4wGzcNyyCYKggKdeO6/view?usp=sharing)_
+
 
 ### Which commits belong to Quantum game jam version / which ones Quantum game hackathon version?
 Up to this commit (including this commit), it belongs to the game jam version: 2d9f7a8d4602d0f60077d3a6be734dd8d091f416 (https://github.com/selindoga/Quantum-Game-Jam-2022/commit/2d9f7a8d4602d0f60077d3a6be734dd8d091f416)
