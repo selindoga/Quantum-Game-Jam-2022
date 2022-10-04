@@ -10,14 +10,15 @@ Unity Editor Version is 2020.3.16f1
 2. download pip and download qiskit library
 
 
-# QodeUnlocked - Quantum Games Hackathon Version
-#### <div align="center">2nd winner of Quantum Games Hackathon</div> <div align="center">https://www.qaif.org/contests/quantum-games-hackathon</div> 
+# QodeUnlocked - Quantum Games Hackathon 2022 Version
+#### _<div align="center">2nd winner of Quantum Games Hackathon</div> <div align="center">https://www.qaif.org/contests/quantum-games-hackathon</div>_ 
 
 * ### _[Hackathon version gameplay Video](https://drive.google.com/file/d/1oTSDONsytLBLJm4wGzcNyyCYKggKdeO6/view?usp=sharing)_
 
 ### Which commits belong to Quantum game jam version / which ones Quantum game hackathon version?
-Up to this commit (including this commit), it belongs to the game jam version: 2d9f7a8d4602d0f60077d3a6be734dd8d091f416 (https://github.com/selindoga/Quantum-Game-Jam-2022/commit/2d9f7a8d4602d0f60077d3a6be734dd8d091f416)
-And all the commits after that belongs to Quantum game hackathon.
+Up to this commit (including this commit), it belongs to the game jam version:
+[2d9f7a8d4602d0f60077d3a6be734dd8d091f416](https://github.com/selindoga/Quantum-Game-Jam-2022/commit/2d9f7a8d4602d0f60077d3a6be734dd8d091f416)
+And all the commits after that belongs to Quantum Games Hackathon.
 
 ### An insight to our game QodeUnlocked
 The game idea originated from trying to connect quantum physics and computing ideas with the theme of the recent Quantum Game Jam hosted by Ijpiis- ‘Patterns’. Thinking about patterns, the pattern locks used to protect our phones came to mind. This lead to the idea of creating a game based on password protection but rather than swiping a finger onscreen to enter the right pattern or tapping the right number code, QodeUnlocked brings with it a quantum twist which is to enter the right combination of quantum gates to take the given initial quantum state to set final quantum state.
