@@ -32,7 +32,7 @@ _Name of Game: QodeUnlocked_
 
 _Team name: Quantum Potatoes_
 
-_Team members: Surabhi Srivastava, Selin Doğa Orhan_
+_Team members: Surabhi Srivastava - Quantum Physicist, Selin Doğa Orhan - Developer_
 
 
 • Game developed using Unity
