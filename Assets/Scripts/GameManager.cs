@@ -2,8 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -101,5 +103,21 @@ public class GameManager : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void ClickVolumeButton()
+    {
+        if (AudioListener.volume > 0)
+        {
+            AudioListener.volume = 0;
+            GameObject.Find("VolumeButton/Image").GetComponent<Image>().sprite =
+                (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Sprites/Buttons/mute.png", typeof(Sprite));
+        }
+        else
+        {
+            AudioListener.volume = 1;
+            GameObject.Find("VolumeButton/Image").GetComponent<Image>().sprite =
+                (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Sprites/Buttons/volume.png", typeof(Sprite));
+        }
     }
 }
